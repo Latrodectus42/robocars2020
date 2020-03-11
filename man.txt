@@ -1,0 +1,22 @@
+TLDR;
+=> ssh pi@k2000.local
+=> password
+=> cd d2
+=> python manage.py drive --tx
+=> turn on ESC
+=> drive
+=> turn off ESC
+=> cd data
+=> open another terminal
+=> tar cvf tub.tar tub_1_19-10-12
+=> scp pi@k2000.local:d2/tub.tar .
+=> https://drive.google.com/drive/folders/1jtzrnEdkrVPLLge1sj0KPJ-Tp7rAJYBR
+=> drag & drop tub.rar
+=> https://colab.research.google.com
+=> select Data visualisation and model training.ipynb
+=> run each script one by one
+=> scp model_cat pi@k2000.local:d2/models
+=> python manage.py drive --model=models/model_cat 
+=> http://k2000.local:8887/drive
+=> click ‘pilot’
+=> enjoy
